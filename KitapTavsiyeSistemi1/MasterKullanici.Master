@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterKullanici.Master.cs" Inherits="KitapTavsiyeSistemi1.arayuzkullanici" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Kitap Tavsiye Sistemi</title> 
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body { 
+         background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/276125/580/386/m1/fpnw/wm1/pattern-with-books-and-glasses-.jpg?1418848105&s=aec9c002d30e577d42248335e6a31ca6");
+    background-color: #cccccc;
+            
+
+        }
+    </style>
+    <style type="text/css">
+        .auto-style1 {
+            height: 298px;
+            width: 182px;
+            background-color: #BFC130;
+        }
+        .auto-style3 {
+            font-weight: bold;
+            font-size: large;
+            height: 55px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div style="height:20px; margin-bottom:20px ; width: 900px;">
+         
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Vivaldi" Font-Size="X-Large" Text="Kitap Degerlendirme ve Tavsiye Sistemi" style="font-size: xx-large; background-color: #F79685"></asp:Label>
+         
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;<br />
+            <br />
+            <br />
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style3"> <a href="KullanicilarArayuz.aspx"> Ana Sayfa&nbsp; </a></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"> <a href="PopularKitap2.aspx"> Popüler Kitaplar</a></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"><a href="YuksekPuanlilar.aspx"> Yüksek Puanlı Kitaplar</a></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"> <a href="PopularYazar.aspx"> Popüler Yazarlar</a></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"> <a href="YazarArama.aspx"> Yazar Arama</a></td>
+                </tr>
+                  <tr>
+                    <td class="auto-style3"> <a href="KitapArama.aspx"> Kitap Arama</a> </td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"> <a href="KullaniciAra.aspx"> Kullanıcı Arama</a></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3"> <a href="KullaniciProfil.aspx"> Profil</a></td>
+                </tr>
+                   <tr>
+                    <td class="auto-style3"> <a href="Mesajlar.aspx"> Mesajlar</a></td>
+                </tr>
+            </table>
+         
+    </div>
+    <div style=" height:500px; margin-bottom:300px; width: 171px;">
+         
+        <div style=" height:1309px; margin-left:200px; width: 601px; margin-top: 68px; background-color: #EBF4E3;" class="auto-style5">
+         
+            &nbsp;&nbsp;<br />
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                 <p>
+                     &nbsp;</p>
+                 <p>
+                     <br />
+                 </p>
+            </asp:ContentPlaceHolder>
+                 
+    </div>
+
+    </div>
+    </form>
+</body>
+</html>
