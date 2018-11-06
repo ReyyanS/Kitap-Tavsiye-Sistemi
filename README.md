@@ -23,7 +23,7 @@ Kullanıcı Modülü (Web Application)
 -Kullanıcı Kayıt (İsim Soyisim cinsiyet dogum tarihi kullanıcı adı şifre gibi bilgilerin alınması ve kullanıcılar tablosuna kaydı, resim yuklenmesi) 
 - Kullanıcı adı ve şifresi ile giriş (Kullanıcılar tanım tablosundaki kullanıcı adı şifreyle karşılaştıracak) 
 -Sisteme başarılı bir şekilde giriş yapılmışsa yanda bir menü gelecek ve orta bölümde de tavsiye sistemi çalışacak.
--Yan Menüde Kitap arama, Başka Kullanıcı Arama, Yazar Arama, Popüler kitaplar, Yüksek Puanlı kitaplar, Popüler Yazarlar linkleri olacak
+- Yan Menüde Kitap arama, Başka Kullanıcı Arama, Yazar Arama, Popüler kitaplar, Yüksek Puanlı kitaplar, Popüler Yazarlar linkleri olacak
 --------------------------------------------------------------------------------------------------
 * Popüler Kitaplar: En çok okunan kitaplar listeleceki kitaplar ve yanlarında okunma sayıları, kitaba tıklayınca kitap detayına gidecek
 * Yüksek Puanlı Kitaplar: En yüksek puan verilen kitaplar ve ortalama puanları, kitaba tıklayınca kitap detayına gidecek 
@@ -33,14 +33,14 @@ Kullanıcı Modülü (Web Application)
 * Kitap Arama: Bir metin kutusuna girilen kelimeyi başlık bölümünde içeren kitaplar listelenir ve kitaba tıklayınca kitap detay sayfasına gidecek 
 --------------------------------------------------------------------------------------------------
 Kitap Detay Sayfası 
--Kitaba ait kitabın ismi, 
-- Resmi, 
-- Yazarı, 
-- Yayınevi, 
-- Kitap tanıtım bilgisi,
-- Kitabın ortalama puanı,
-- Okunma Sayısı, 
-- Kitapla ilgili yapılan incelemelerin listelenmesi, 
+-Kitaba ait kitabın ismi
+- Resmi 
+- Yazarı
+- Yayınevi 
+- Kitap tanıtım bilgisi
+- Kitabın ortalama puanı
+- Okunma Sayısı 
+- Kitapla ilgili yapılan incelemelerin listelenmesi
 - Alıntıların listelenmesi
 - Kitap kaydı butonu yada linki
 
