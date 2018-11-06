@@ -4,16 +4,16 @@ Kullanılacak Platformlar:
 SQL Express veya Server, C#
 --------------------------------------------------------------------------------------------------
 Veritabanı Tasarımı: 
-Yönetici Tanım Tablosu
-Kullanıcılar Tanım Tablosu
-Yazarlar Tanım Tablosu
-Kitaplar Tanım Tablosu (Kitap Bilgileri, YazarID vs...)
-Kitap Alıntı Tablosu (KullaniciID,KitapID,SayfaNo,Cumle)
-Kitap İnceleme Tablosu (KullaniciID,KitapID,İnceleme)
-KitapOkunma Tablosu (KullanıcıID, kitapID)
-KitapPuan Tablosu (KullanıcıID, KitapID, Puan)
-Mesajlar Tablosu (GönderenID, GidenID, Baslik, Mesaj, Tarih)
-Bütün veriler veritabanında tutulacaktır.
+- Yönetici Tanım Tablosu
+- Kullanıcılar Tanım Tablosu
+- Yazarlar Tanım Tablosu
+- Kitaplar Tanım Tablosu (Kitap Bilgileri, YazarID vs...)
+- Kitap Alıntı Tablosu (KullaniciID,KitapID,SayfaNo,Cumle)
+- Kitap İnceleme Tablosu (KullaniciID,KitapID,İnceleme)
+- KitapOkunma Tablosu (KullanıcıID, kitapID)
+- KitapPuan Tablosu (KullanıcıID, KitapID, Puan)
+- Mesajlar Tablosu (GönderenID, GidenID, Baslik, Mesaj, Tarih)
+- Bütün veriler veritabanında tutulacaktır.
 --------------------------------------------------------------------------------------------------
 Yönetici Modülü (Web Application)
 - Kullanıcı adı ve şifresi ile giriş (Yönetici tanım tablosundaki kullanıcı adı şifreyle karşılaştıracak) 
@@ -33,7 +33,17 @@ Kullanıcı Modülü (Web Application)
 * Kitap Arama: Bir metin kutusuna girilen kelimeyi başlık bölümünde içeren kitaplar listelenir ve kitaba tıklayınca kitap detay sayfasına gidecek 
 --------------------------------------------------------------------------------------------------
 Kitap Detay Sayfası 
--Kitaba ait kitabın ismi, resmi, yazarı, yayınevi, kitap tanıtım bilgisi, Kitabın ortalama puanı, Okunma Sayısı, kitapla ilgili yapılan incelemelerin listelenmesi, Alıntıların listelenmesi) kitap kaydı butonu yada linki
+-Kitaba ait kitabın ismi, 
+- Resmi, 
+- Yazarı, 
+- Yayınevi, 
+- Kitap tanıtım bilgisi,
+- Kitabın ortalama puanı,
+- Okunma Sayısı, 
+- Kitapla ilgili yapılan incelemelerin listelenmesi, 
+- Alıntıların listelenmesi
+- Kitap kaydı butonu yada linki
+
 --------------------------------------------------------------------------------------------------
 Kitap kaydı
 - Bu kitabı okudum diye belirtme 
