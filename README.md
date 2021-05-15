@@ -1,6 +1,6 @@
 KİTAP DEĞERLENDİRDİRME VE TAVSİYE SİSTEMİ
 --------------------------------------------------------------------------------------------------
-Kullanılacak Platformlar:
+Kullanılan Platformlar:
 SQL Express veya Server, C#
 --------------------------------------------------------------------------------------------------
 Veritabanı Tasarımı: 
